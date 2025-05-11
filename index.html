@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Web Chat</title>
+
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">Atendente Virtual</div>
+    <div class="chat-messages" id="chatMessages">
+      <div class="message received">
+        me fale agora o email de quem agendou as baterias e eu vou buscar as informações
+      </div>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="messageInput" placeholder="Digite sua mensagem..." />
+      <button onclick="sendMessage()">Enviar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
